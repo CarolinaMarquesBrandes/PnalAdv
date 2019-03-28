@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #1d1d1d;
+}
+
+.centraliza {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+header{
+    height: 154px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu_principal {
+	margin-top: 30px; 
+}
+
+#menu_principal a{
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #2a2a2a;
+}
+
+#menu_principal a:hover{
+    background-color: #b19065;
+    color: #f8f3f3;
+}
+
+#banner-principal{
+    width: 100%;
+    height: 400px;
+    background-image: url(img/advogado.jpg);
+    background-size: cover;
+    margin-bottom: 48px;
+}
+
+#quemSomos {
+	text-align: center;
+   
+}
+
+.botao {
+	display: inline-block;
+    padding: 10px 20px;
+    background-image: linear-gradient(to bottom, #b19065, #90714a);
+    color: #f8f3f3;
+    text-decoration: none;
+    text-shadow: 1px 1px 2px #343333;
+}
+
+.botao:hover{
+    background-image: linear-gradient(to bottom, #d0ab7c, #cb9e65); 
+    color: #d6d5d5;
+}
+
+article{
+    margin: 60px 0;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.colunas{
+    width: 450px;
+    text-align: center;
+}
+
+.colunas > p{
+    text-align: left;
+}
+
+footer{
+    background-color: #181818;
+    color: #d9b990;
+    text-shadow: 1px 1px 2px #aaa5a5;
+    
+}
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+
+
+
+
+
+
+
+
